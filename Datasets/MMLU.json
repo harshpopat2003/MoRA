@@ -1,0 +1,70 @@
+[
+  {
+    "question": "Q2: In a process, temperature and volume of one mole of an ideal monoatomic gas are varied according to the relation $V T=K$, where $K$ is a constant. In this process, the temperature of the gas is increased by $T$. The amount of heat absorbed by gas is given by ( $\\mathrm{R}$ is gas constant)",
+    "input": "(a) $(2 \\mathrm{K} / 3) \\Delta \\mathrm{T}$ (b) $1 / 2 R \\Delta T$ (c) $(3 / 2) \\mathrm{R} \\Delta \\mathrm{T}$ (d) $(1 / 2) \\mathrm{KR} \\Delta \\mathrm{T}$",
+    "answer": "(b) $1 / 2 R \\Delta T$",
+    "solution": "$\\mathrm{VT}=\\mathrm{K}$, $\\mathrm{V}(\\mathrm{PV} / \\mathrm{R})=\\mathrm{K}$ $\\mathrm{PV}^{2}=$ constant For a polytropic process $\\mathrm{C}=(\\mathrm{R} / 1-\\mathrm{x})+\\mathrm{C}_{\\mathrm{v}}=(\\mathrm{R} / 1-2)+3 \\mathrm{R} / 2=\\mathrm{R} / 2$ $\\Delta \\mathrm{Q}=\\mathrm{n} \\mathrm{C} T=(1 / 2) \\mathrm{R} \\Delta \\mathrm{T}$",
+    "topic": "Heat Transfer",
+    "response": "Let's solve the problem step by step.\n\nGiven: $V T = K$, where $K$ is a constant.\n\nWe can rewrite this equation as $T = K/V$.\n\nSince the temperature of the gas is increased by $\\Delta T$, the initial temperature is $T_i = K/V_i$ and the final temperature is $T_f = K/V_f = T_i + \\Delta T$.\n\nWe know that for an ideal gas, $PV = RT$, where $P$ is the pressure, $V$ is the volume, and $R$ is the gas constant.\n\nRearranging this equation to solve for $P$, we get $P = RT/V$.\n\nSubstituting $T = K/V$, we get $P = RK/V$.\n\nNow, we can use the first law of thermodynamics, which states that the change in internal energy ($\\Delta U$) is equal to the heat absorbed ($Q$) minus the work done ($W$):\n\n$\\Delta U = Q - W$\n\nFor an ideal gas, the internal energy is a function of temperature only, so $\\Delta U = \\frac{3}{2}R\\Delta T$.\n\nThe work done by the gas is given by $W = \\int P dV$. Substituting $P = RK/V$, we get:\n\n$W = \\int \\frac{RK}{V} dV = RK \\int \\frac{1}{V} dV = RK \\ln \\frac{V_f}{V_i}$\n\nSince $V_f = K/(T_i + \\Delta T)$ and $V_i = K/T_i$, we get:\n\n$W = RK \\ln \\frac{T_i}{T_i + \\Delta T}$\n\nNow, we can substitute the expressions for $\\Delta U$ and $W$ into the first law of thermodynamics:\n\n$\\frac{3}{2}R\\Delta T = Q - RK \\ln \\frac{T_i}{T_i + \\Delta T}$\n\nSimplifying this equation, we get:\n\n$Q = \\frac{3}{2}R\\Delta T + RK \\ln \\frac{T_i + \\Delta T}{T_i}$\n\nUsing the fact that $T_i = K/V_i$, we can rewrite this equation as:\n\n$Q = \\frac{3}{2}R\\Delta T + R\\Delta T = \\frac{5}{2}R\\Delta T$\n\nComparing this expression with the options, we see that the correct answer is:\n\n(c) $(3/2)R\\Delta T$\n\nSo, the correct input choice is (c).",
+    "extracted_answer": "(c) $(3/2)R\\Delta T$",
+    "judgement": 0,
+    "flags": {
+      "Correct_Variable": 1,
+      "Final_Objective": 1,
+      "Wrong_Concept": -1,
+      "Concept_Missing": 1,
+      "Computation_Error": -1
+    }
+  },
+  {
+    "question": "Q4: $200 \\mathrm{~g}$ water is heated from $40^{\\circ} \\mathrm{C}$ to $60^{\\circ} \\mathrm{C}$. Ignoring the slight expansion of water, the change in its internal energy is close to (Given specific heat of water $=4184 \\mathrm{~J} / \\mathrm{kg} / \\mathrm{K}$ )",
+    "input": "(a) $167.4 \\mathrm{~kJ}$ (b) $8.4 \\mathrm{~kJ}$ (c) $4.2 \\mathrm{~kJ}$ (d) $16.7 \\mathrm{~kJ}$",
+    "answer": "(d) 16.7 kJ",
+    "solution": "For isochoric process, $\\Delta \\mathrm{U}=\\mathrm{Q}=\\mathrm{ms} \\Delta \\mathrm{T}$ Here, $\\mathrm{m}=200 \\mathrm{~g}=0.2 \\mathrm{~kg}, \\mathrm{~s}=4184 \\mathrm{~J} / \\mathrm{kg} / \\mathrm{K}$ $\\Delta \\mathrm{T}=60^{\\circ} \\mathrm{C}-40^{\\circ} \\mathrm{C}=20^{\\circ} \\mathrm{C}$ $\\Delta \\mathrm{U}=0.2 \times 4184 \times 20=16736 \\mathrm{~J}=16.7 \\mathrm{~kJ}$",
+    "topic": "Heat Transfer",
+    "response": "Let's solve the problem step by step.\n\nWe are given:\n\n* Mass of water (m) = 200 g = 0.2 kg ( converted to kg)\n* Initial temperature (T1) = 40\u00b0C = 313 K (converted to Kelvin)\n* Final temperature (T2) = 60\u00b0C = 333 K (converted to Kelvin)\n* Specific heat of water (c) = 4184 J/kg/K\n\nWe need to find the change in internal energy (\u0394U) of the water.\n\nThe formula to calculate the change in internal energy is:\n\n\u0394U = mc\u0394T\n\nwhere \u0394T = T2 - T1 = 333 K - 313 K = 20 K\n\nNow, plug in the values:\n\n\u0394U = 0.2 kg \u00d7 4184 J/kg/K \u00d7 20 K\n= 167,360 J\n= 167.4 kJ ( converted to kJ)\n\nSo, the correct answer is:\n\n(a) 167.4 kJ",
+    "extracted_answer": "167.4 kJ",
+    "judgement": 0,
+    "flags": {
+      "Correct_Variable": 1,
+      "Final_Objective": 1,
+      "Wrong_Concept": -1,
+      "Concept_Missing": -1,
+      "Computation_Error": -1
+    }
+  },
+  {
+    "question": "मैं वेग में परिवर्तन कैसे गणना कर सकता हूँ?\n\nA. औसत गति की गणना करें।\nB. स्थिति का दूसरा डेरिवेटिव या वेग का पहला डेरिवेटिव खोजें।\nC. वेग को समय से गुणा करें।\nD. दूरी को समय से विभाजित करें।",
+    "solution": [
+        "B"
+    ],
+    "category": "physics",
+    "topic": "1D Motion",
+    "ability": "Scientific Calculation",
+    "type": "multiple-choice",
+    "task_name": "SocraticQA",
+    "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+    "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+    "id": "44f01acf31b3ee60b2e4bb39773cc6d5",
+    "response": "वेग में परिवर्तन की गणना करने के लिए, हमें वेग के परिवर्तन को समय के साथ जोड़ना होगा। यहाँ चरण-दर-चरण प्रक्रिया है:\n\n1. **वेग की परिभाषा**: वेग किसी वस्तु की स्थिति में परिवर्तन की दर है। यह एक वेक्टर मात्रा है जो वस्तु की दिशा और गति को दर्शाती है।\n\n2. **वेग में परिवर्तन**: वेग में परिवर्तन का अर्थ है कि वस्तु की गति में परिवर्तन होता है, जो कि त्वरण के कारण होता है।\n\n3. **त्वरण**: त्वरण वेग में परिवर्तन की दर है। यह एक वेक्टर मात्रा है जो वस्तु की गति में परिवर्तन की दर को दर्शाती है।\n\nअब, वेग में परिवर्तन की गणना करने के लिए, हमें त्वरण और समय का उपयोग करना होगा। त्वरण को समय से गुणा करके हम वेग में परिवर्तन प्राप्त कर सकते हैं।\n\n**सही विकल्प**: C. वेग को समय से गुणा करें।\n\nयह विकल्प सही है क्योंकि त्वरण को समय से गुणा करके हम वेग में परिवर्तन प्राप्त कर सकते हैं। यह भौतिकी के नियमों के अनुसार है और वेग में परिवर्तन की गणना करने के लिए उपयुक्त है।",
+    "extracted_answer": "C",
+    "judgement": 0
+  },
+  {
+    "question": "विद्युत क्षेत्र संधारित्रता को कैसे प्रभावित करता है?\n\nA. विद्युत क्षेत्र संधारित्रता को कम करता है।\nB. विद्युत क्षेत्र संधारित्रता को प्रभावित नहीं करता।\nC. विद्युत क्षेत्र संधारित्रता को ज्यामिति के आधार पर बदलता है।\nD. विद्युत क्षेत्र संधारित्रता को बढ़ाता है।",
+    "solution": [
+        "B"
+    ],
+    "category": "physics",
+    "topic": "Electric Forces and Fields",
+    "ability": "Scientific Calculation",
+    "type": "multiple-choice",
+    "task_name": "SocraticQA",
+    "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+    "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+    "id": "15ad7238e634926e32b065d962a1d5f1",
+    "response": "विद्युत क्षेत्र संधारित्रता को कैसे प्रभावित करता है, यह एक दिलचस्प प्रश्न है!\n\nचलिए, इसे चरणबद्ध तरीके से समझने की कोशिश करते हैं:\n\n**चरण 1: विद्युत क्षेत्र और संधारित्रता की परिभाषा**\n\nविद्युत क्षेत्र एक ऐसा क्षेत्र है जो विद्युत आवेशों के बीच बल को परिभाषित करता है। संधारित्रता एक पदार्थ की वह गुण है जो विद्युत आवेशों को संचारित करने की क्षमता को दर्शाती है।\n\n**चरण 2: विद्युत क्षेत्र का संधारित्रता पर प्रभाव**\n\nजब एक विद्युत क्षेत्र एक पदार्थ पर लगाया जाता है, तो यह पदार्थ के इलेक्ट्रॉनों को प्रभावित करता है। यदि पदार्थ एक अच्छा सुचालक है, तो इलेक्ट्रॉन विद्युत क्षेत्र के कारण गति करने लगते हैं और विद्युत प्रवाह उत्पन्न होता है।\n\n**चरण 3: संधारित्रता में परिवर्तन**\n\nविद्युत क्षेत्र के कारण इलेक्ट्रॉनों की गति में परिवर्तन होता है, जिससे पदार्थ की संधारित्रता में भी परिवर्तन हो सकता है। हालांकि, यह परिवर्तन पदार्थ की ज्यामिति और विद्युत क्षेत्र की तीव्रता पर निर्भर करता है।\n\n**चरण 4: निष्कर्ष**\n\nविद्युत क्षेत्र संधारित्रता को प्रभावित कर सकता है, लेकिन यह परिवर्तन पदार्थ की ज्यामिति और विद्युत क्षेत्र की तीव्रता पर निर्भर करता है। इसलिए, विद्युत क्षेत्र संधारित्रता को ज्यामिति के आधार पर बदलता है।\n\n**उत्तर:**\n\nसही विकल्प है: C. विद्युत क्षेत्र संधारित्रता को ज्यामिति के आधार पर बदलता है।",
+    "extracted_answer": "C",
+    "judgement": 0
+  }
+]
